@@ -1,0 +1,62 @@
+{
+  "bundles" : [ {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.sapho.services.jira.JiraService",
+    "version" : "0.2.4",
+    "title" : "JIRA integration",
+    "description" : "Lets you build a mobile app connected to your JIRA instance.",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/JIRA.35cdd2008e8e83479745e5635da3d7f1.svg",
+    "masVersion" : "1.4.9-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-02-26T10:14:29",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "310fe889-928d-4d8c-bd36-009bdec0772d",
+      "title" : "Create Ticket",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "87d3dd1d-9f44-4ff5-9811-8bc9133cfdc6",
+      "title" : "Tickets",
+      "action" : true,
+      "numberOfEvents" : 11
+    } ],
+    "vaResolvers" : [ {
+      "name" : "ServiceDesk Details",
+      "intentName" : "ServiceDesk.Details"
+    }, {
+      "name" : "ServiceDesk Lookup",
+      "intentName" : "ServiceDesk.Lookup"
+    } ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-jira.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.jira.JiraService_0.2.4.zip",
+    "md5Checksum" : "ca1eaf16e36e258c8c7c8bc29d57e388"
+  }, {
+    "type" : "HTTP",
+    "vendor" : "Citrix",
+    "id" : "3c414413-b4f6-450b-a69d-f9745a029ad8",
+    "title" : "HTTP integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/HTTP.b662c61cecf295906ef0af18be93b25a.svg",
+    "masVersion" : "1.4.3-SNAPSHOT",
+    "categories" : [ ],
+    "created" : "2020-02-14T09:51:02",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "en" ],
+    "apps" : [ {
+      "uuid" : "fe2697ca-4639-47cf-be2a-df888908e79e",
+      "title" : "Blank Microapp",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_3c414413-b4f6-450b-a69d-f9745a029ad8.zip",
+    "md5Checksum" : "79d7c1cfb1dc6b815f824ead21643056"
+  } ]
+}
