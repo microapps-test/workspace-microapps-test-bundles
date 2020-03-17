@@ -35,7 +35,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-jira.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.jira.JiraService_0.2.4.zip",
-    "md5Checksum" : "ca1eaf16e36e258c8c7c8bc29d57e388"
+    "hashChecksum" : "719524233aea262ed905c610dad2af6da9f540490f3eedc235a17046131e21f8"
   }, {
     "type" : "HTTP",
     "vendor" : "Citrix",
@@ -57,6 +57,6 @@
     "vaResolvers" : [ ],
     "tags" : [ ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_3c414413-b4f6-450b-a69d-f9745a029ad8.zip",
-    "md5Checksum" : "79d7c1cfb1dc6b815f824ead21643056"
+    "hashChecksum" : "de8ca41918eb76b3fc5ada9a99370c2b871f2da2b590218c498f7781dd2910db"
   } ]
 }
