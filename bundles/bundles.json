@@ -146,6 +146,24 @@
     "hashChecksum" : "db443915baae6aa6229857d1ca354f69339b17ec7809783a737d13fd50c9bc85"
   }, {
     "type" : "HTTP",
+    "vendor" : "AcmeCorp",
+    "id" : "ComingSoonCircleCI",
+    "version" : "0.1.0-beta",
+    "title" : "CircleCI integration",
+    "description" : "Will let you integrate with Circle CI service.",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/CircleCI.a29ebd2c105388a0f7cae705126c2544.svg",
+    "categories" : [ "COMING_SOON" ],
+    "created" : "2020-03-26T10:14:29",
+    "tags" : [ ],
+    "masVersion" : null,
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ ],
+    "apps" : [ ],
+    "vaResolvers" : [ ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/AcmeCorp/AcmeCorp_ComingSoonCircleCI.zip",
+    "hashChecksum" : "34abf62f2354e5ae730c79d7761d5e8ee0745d502d4d17af4f571aa6a00c3d3a"
+  }, {
+    "type" : "HTTP",
     "vendor" : "Citrix",
     "id" : "ComingSoonCircleCI",
     "version" : "0.1.0-beta",
