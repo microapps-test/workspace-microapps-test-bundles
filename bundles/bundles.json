@@ -61,6 +61,110 @@
   }, {
     "type" : "HTTP",
     "vendor" : "Citrix",
+    "id" : "5b68dfff-fd97-4593-aaf7-ecafd9b56b23",
+    "title" : "HTTP JIRA Integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/HTTP.b662c61cecf295906ef0af18be93b25a.svg",
+    "masVersion" : "1.7.3",
+    "categories" : [ ],
+    "created" : "2020-03-03T15:58:12",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "en" ],
+    "apps" : [ {
+      "uuid" : "5ada5e57-8bd5-4056-abdb-7bbd793906cc",
+      "title" : "Tickets",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_5b68dfff-fd97-4593-aaf7-ecafd9b56b23.zip",
+    "hashChecksum" : "d766269dfd38cbfa71b50a8bfeba5d9bfe684f19467f84081b081f003a2dc8a8"
+  }, {
+    "type" : "HTTP",
+    "vendor" : "Citrix",
+    "id" : "aa190bbb-79e8-4281-8bc4-7d7941432e9c",
+    "title" : "Zendesk",
+    "description" : "Zendesk HTTP integration with OAuth\n\nKnown issues / potential enhancements:\n1) Localisation is done only for English\n2) Ticket tags are not supported\n3) If Update Status needs to be amended with changes of other items than additional buttons with different API calls needs to introduces (E.G.: priority cannot be part of the call if it has an empty value)\n4) Tickets with \"status\": \"deleted\" would be better to remove from synchronisation\n",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Zendesk.c23ddbbea04b28e5303cb5046b14aa7c.svg",
+    "masVersion" : "1.7.7",
+    "categories" : [ ],
+    "created" : "2020-03-06T16:46:54",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "en" ],
+    "apps" : [ {
+      "uuid" : "6ea0c62b-12c4-4866-a405-bfb3e5d1b5e9",
+      "title" : "Add Ticket",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "ef668059-dee5-4726-a8a9-acb8ae4ea708",
+      "title" : "Tickets",
+      "action" : true,
+      "numberOfEvents" : 4
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_aa190bbb-79e8-4281-8bc4-7d7941432e9c.zip",
+    "hashChecksum" : "37a1ce5072a43fccfd9300543b1521824a6f609dede1971f65d06c8653d20752"
+  }, {
+    "type" : "HTTP",
+    "vendor" : "Citrix",
+    "id" : "e7bdd5fa-4d2e-46c2-8302-89b918ad421c",
+    "title" : "ServiceNow HTTP integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ServiceNow.9a68dd66918b05acfbe29ac251e33a8d.svg",
+    "masVersion" : "1.6.2",
+    "categories" : [ ],
+    "created" : "2020-02-26T20:04:18",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "en" ],
+    "apps" : [ {
+      "uuid" : "1b2985fa-702a-4bc9-8ff5-943302b5ee2d",
+      "title" : "Submit Problem",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "60e65e22-d981-45bf-bfd4-f1e82bb28b54",
+      "title" : "Incidents",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "8a03f596-462a-49f1-ae52-def83156a6aa",
+      "title" : "Submit Incident",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "cfd8d08e-7167-4255-9d93-babb282102e0",
+      "title" : "Request Approval",
+      "action" : true,
+      "numberOfEvents" : 1
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_e7bdd5fa-4d2e-46c2-8302-89b918ad421c.zip",
+    "hashChecksum" : "db443915baae6aa6229857d1ca354f69339b17ec7809783a737d13fd50c9bc85"
+  }, {
+    "type" : "HTTP",
+    "vendor" : "Citrix",
+    "id" : "ComingSoonCircleCI",
+    "version" : "0.1.0-beta",
+    "title" : "CircleCI integration",
+    "description" : "Will let you integrate with Circle CI service.",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/CircleCI.a29ebd2c105388a0f7cae705126c2544.svg",
+    "categories" : [ "COMING_SOON" ],
+    "created" : "2020-03-26T10:14:29",
+    "tags" : [ ],
+    "masVersion" : null,
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ ],
+    "apps" : [ ],
+    "vaResolvers" : [ ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_ComingSoonCircleCI.zip",
+    "hashChecksum" : "63d542978cf891d732a90d807042fde53b40798a0025336c08627908ded79555"
+  }, {
+    "type" : "HTTP",
+    "vendor" : "Citrix",
     "id" : "NewServiceComingSoon",
     "version" : "0.2.0-beta",
     "title" : "JIRA integration - Coming soon",
