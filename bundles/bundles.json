@@ -91,6 +91,32 @@
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
+    "id" : "com.sapho.services.rss.RssService",
+    "version" : "0.2.1",
+    "title" : "RSS integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/RSS.b2dda706cd7035dfaac710f076fb94ce.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-04-08T03:52:11",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "de113ea2-421d-42a7-8284-3242d315d0c9",
+      "title" : "Items",
+      "action" : true,
+      "numberOfEvents" : 1
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-rss.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.rss.RssService_0.2.1.zip",
+    "hashChecksum" : "b5d940447c44dedba2213e8f45afb986a34e2b10d00242c14dfeaa18c1e7ee31"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
     "id" : "com.sapho.services.salesforce.SalesforceService",
     "version" : "0.1.6",
     "title" : "Salesforce integration",
@@ -246,6 +272,96 @@
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.salesforce.SalesforceService_0.1.6.zip",
     "hashChecksum" : "2d41062a59493695dba88c717675d6939eb90c879c3b41201da6687a7d115140"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.sapho.services.servicenow.ServiceNowService",
+    "version" : "0.3.2",
+    "title" : "ServiceNow integration",
+    "description" : "Using DIP.",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ServiceNow.9a68dd66918b05acfbe29ac251e33a8d.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ ],
+    "created" : "2020-04-08T03:46:52",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "214e99f3-3504-4f83-b55d-cd0f9faa2c7d",
+      "title" : "Submit Change Request",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "409ce9ef-5e9a-4e6a-927d-355ff308dab7",
+      "title" : "Approvals",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "4546ac30-eac5-4e51-b200-4083354339bd",
+      "title" : "Submit Incident",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "47d33ac2-abcc-448b-8f86-4539ebb5adf5",
+      "title" : "Incidents",
+      "action" : true,
+      "numberOfEvents" : 4
+    }, {
+      "uuid" : "57d45f5c-6eec-40bb-826f-2d368ff534eb",
+      "title" : "Submit Problem",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "73b10aa3-c92d-4664-97af-48000ef955f9",
+      "title" : "Submit Catalog Request",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "82053d07-2ef7-4aed-a886-530b8d63d7c9",
+      "title" : "Submit Delegate",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "b1a9fe3b-856c-4331-b586-5ecf78261bb8",
+      "title" : "Problems",
+      "action" : true,
+      "numberOfEvents" : 4
+    }, {
+      "uuid" : "d4d9f3bf-c758-48c8-ad15-fa45a6b6ad68",
+      "title" : "Change Requests",
+      "action" : true,
+      "numberOfEvents" : 4
+    } ],
+    "vaResolvers" : [ {
+      "name" : "ServiceDesk Details",
+      "intentName" : "ServiceDesk.Details"
+    }, {
+      "name" : "ServiceDesk Details Change Request",
+      "intentName" : "ServiceDesk.Details.ChangeRequest"
+    }, {
+      "name" : "ServiceDesk Details Incident",
+      "intentName" : "ServiceDesk.Details.Incident"
+    }, {
+      "name" : "ServiceDesk Details Problem",
+      "intentName" : "ServiceDesk.Details.Problem"
+    }, {
+      "name" : "ServiceDesk Lookup",
+      "intentName" : "ServiceDesk.Lookup"
+    }, {
+      "name" : "ServiceDesk Lookup Change Request",
+      "intentName" : "ServiceDesk.Lookup.ChangeRequest"
+    }, {
+      "name" : "ServiceDesk Lookup Incident",
+      "intentName" : "ServiceDesk.Lookup.Incident"
+    }, {
+      "name" : "ServiceDesk Lookup Problem",
+      "intentName" : "ServiceDesk.Lookup.Problem"
+    } ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-servicenow.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.servicenow.ServiceNowService_0.3.2.zip",
+    "hashChecksum" : "6bbba46d3792e9f61fe4f0cdb7137d688bf3c5b54a3134914e2ed8ebfcd98d5d"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
