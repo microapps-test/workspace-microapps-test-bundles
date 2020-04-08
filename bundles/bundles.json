@@ -49,7 +49,7 @@
       "tag" : "helpUrl",
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-concur.html"
     } ],
-    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.concur.ConcurService_0.7.6.zip",
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/Citrix/Citrix_com.sapho.services.concur.ConcurService_0.7.6.zip",
     "hashChecksum" : "1af46b4fbd0e6a0d1ad8c4e6b8c29a2e8e593608763424fdefe8c322e02e1406"
   }, {
     "type" : "DIP",
@@ -86,8 +86,34 @@
       "tag" : "helpUrl",
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-jira.html"
     } ],
-    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.jira.JiraService_0.2.4.zip",
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/Citrix/Citrix_com.sapho.services.jira.JiraService_0.2.4.zip",
     "hashChecksum" : "84ccf10401977269b57274e87785f2d9b7c91573d9f533fbb352f6f5c0a613c3"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.sapho.services.rss.RssService",
+    "version" : "0.2.1",
+    "title" : "RSS integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/RSS.b2dda706cd7035dfaac710f076fb94ce.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-04-08T03:52:11",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "de113ea2-421d-42a7-8284-3242d315d0c9",
+      "title" : "Items",
+      "action" : true,
+      "numberOfEvents" : 1
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-rss.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/Citrix/Citrix_com.sapho.services.rss.RssService_0.2.1.zip",
+    "hashChecksum" : "b5d940447c44dedba2213e8f45afb986a34e2b10d00242c14dfeaa18c1e7ee31"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -244,8 +270,98 @@
       "tag" : "helpUrl",
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-salesforce.html"
     } ],
-    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.salesforce.SalesforceService_0.1.6.zip",
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/Citrix/Citrix_com.sapho.services.salesforce.SalesforceService_0.1.6.zip",
     "hashChecksum" : "2d41062a59493695dba88c717675d6939eb90c879c3b41201da6687a7d115140"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.sapho.services.servicenow.ServiceNowService",
+    "version" : "0.3.2",
+    "title" : "ServiceNow integration",
+    "description" : "Using DIP.",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ServiceNow.9a68dd66918b05acfbe29ac251e33a8d.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ ],
+    "created" : "2020-04-08T03:46:52",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "214e99f3-3504-4f83-b55d-cd0f9faa2c7d",
+      "title" : "Submit Change Request",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "409ce9ef-5e9a-4e6a-927d-355ff308dab7",
+      "title" : "Approvals",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "4546ac30-eac5-4e51-b200-4083354339bd",
+      "title" : "Submit Incident",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "47d33ac2-abcc-448b-8f86-4539ebb5adf5",
+      "title" : "Incidents",
+      "action" : true,
+      "numberOfEvents" : 4
+    }, {
+      "uuid" : "57d45f5c-6eec-40bb-826f-2d368ff534eb",
+      "title" : "Submit Problem",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "73b10aa3-c92d-4664-97af-48000ef955f9",
+      "title" : "Submit Catalog Request",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "82053d07-2ef7-4aed-a886-530b8d63d7c9",
+      "title" : "Submit Delegate",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "b1a9fe3b-856c-4331-b586-5ecf78261bb8",
+      "title" : "Problems",
+      "action" : true,
+      "numberOfEvents" : 4
+    }, {
+      "uuid" : "d4d9f3bf-c758-48c8-ad15-fa45a6b6ad68",
+      "title" : "Change Requests",
+      "action" : true,
+      "numberOfEvents" : 4
+    } ],
+    "vaResolvers" : [ {
+      "name" : "ServiceDesk Details",
+      "intentName" : "ServiceDesk.Details"
+    }, {
+      "name" : "ServiceDesk Details Change Request",
+      "intentName" : "ServiceDesk.Details.ChangeRequest"
+    }, {
+      "name" : "ServiceDesk Details Incident",
+      "intentName" : "ServiceDesk.Details.Incident"
+    }, {
+      "name" : "ServiceDesk Details Problem",
+      "intentName" : "ServiceDesk.Details.Problem"
+    }, {
+      "name" : "ServiceDesk Lookup",
+      "intentName" : "ServiceDesk.Lookup"
+    }, {
+      "name" : "ServiceDesk Lookup Change Request",
+      "intentName" : "ServiceDesk.Lookup.ChangeRequest"
+    }, {
+      "name" : "ServiceDesk Lookup Incident",
+      "intentName" : "ServiceDesk.Lookup.Incident"
+    }, {
+      "name" : "ServiceDesk Lookup Problem",
+      "intentName" : "ServiceDesk.Lookup.Problem"
+    } ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-servicenow.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/Citrix/Citrix_com.sapho.services.servicenow.ServiceNowService_0.3.2.zip",
+    "hashChecksum" : "6bbba46d3792e9f61fe4f0cdb7137d688bf3c5b54a3134914e2ed8ebfcd98d5d"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -275,7 +391,7 @@
       "tag" : "helpUrl",
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-zendesk.html"
     } ],
-    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.zendesk.ZendeskService_0.1.0.zip",
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/Citrix/Citrix_com.sapho.services.zendesk.ZendeskService_0.1.0.zip",
     "hashChecksum" : "6eacf257ef75aabd50aa696ef7661e9a30ff460d22a9e4b80955866bd4b16d82"
   }, {
     "type" : "HTTP",
@@ -297,7 +413,7 @@
     } ],
     "vaResolvers" : [ ],
     "tags" : [ ],
-    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_5b68dfff-fd97-4593-aaf7-ecafd9b56b23.zip",
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/Citrix/Citrix_5b68dfff-fd97-4593-aaf7-ecafd9b56b23.zip",
     "hashChecksum" : "d766269dfd38cbfa71b50a8bfeba5d9bfe684f19467f84081b081f003a2dc8a8"
   }, {
     "type" : "HTTP",
@@ -324,7 +440,7 @@
     } ],
     "vaResolvers" : [ ],
     "tags" : [ ],
-    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_aa190bbb-79e8-4281-8bc4-7d7941432e9c.zip",
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/Citrix/Citrix_aa190bbb-79e8-4281-8bc4-7d7941432e9c.zip",
     "hashChecksum" : "37a1ce5072a43fccfd9300543b1521824a6f609dede1971f65d06c8653d20752"
   }, {
     "type" : "HTTP",
@@ -361,7 +477,7 @@
     } ],
     "vaResolvers" : [ ],
     "tags" : [ ],
-    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_e7bdd5fa-4d2e-46c2-8302-89b918ad421c.zip",
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/Citrix/Citrix_e7bdd5fa-4d2e-46c2-8302-89b918ad421c.zip",
     "hashChecksum" : "db443915baae6aa6229857d1ca354f69339b17ec7809783a737d13fd50c9bc85"
   }, {
     "type" : "HTTP",
@@ -379,7 +495,7 @@
     "i18nLanguages" : [ ],
     "apps" : [ ],
     "vaResolvers" : [ ],
-    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/AcmeCorp/AcmeCorp_ComingSoonCircleCI.zip",
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/AcmeCorp/AcmeCorp_ComingSoonCircleCI.zip",
     "hashChecksum" : "34abf62f2354e5ae730c79d7761d5e8ee0745d502d4d17af4f571aa6a00c3d3a"
   }, {
     "type" : "HTTP",
@@ -397,7 +513,7 @@
     "i18nLanguages" : [ ],
     "apps" : [ ],
     "vaResolvers" : [ ],
-    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_ComingSoonCircleCI.zip",
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/Citrix/Citrix_ComingSoonCircleCI.zip",
     "hashChecksum" : "63d542978cf891d732a90d807042fde53b40798a0025336c08627908ded79555"
   }, {
     "type" : "HTTP",
@@ -418,7 +534,7 @@
     "i18nLanguages" : [ ],
     "apps" : [ ],
     "vaResolvers" : [ ],
-    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_NewServiceComingSoon.zip",
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/MICROAPP-0000-add-servicenow/bundles/archives/Citrix/Citrix_NewServiceComingSoon.zip",
     "hashChecksum" : "7a720772da0bb0aee9cf2f86386962024d09d1554468e86ea9c64b90310b6c42"
   } ]
 }
