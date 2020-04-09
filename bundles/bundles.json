@@ -2,6 +2,375 @@
   "bundles" : [ {
     "type" : "DIP",
     "vendor" : "Citrix",
+    "id" : "com.microapp.demo.ariba.DemoAribaService",
+    "version" : "0.1.0",
+    "title" : "SAP Ariba integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Ariba.51e0c216c1507cb16edb31bc47030a9e.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "DEMO" ],
+    "created" : "2020-04-09T07:12:20",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "a36f9ef5-084a-4771-a60f-f7e25c02131a",
+      "title" : "Requisition Approval (Demo)",
+      "action" : false,
+      "numberOfEvents" : 4
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "help.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.microapp.demo.ariba.DemoAribaService_0.1.0.zip",
+    "hashChecksum" : "992d2e112684dcbb020b849b5239ee0b2de724fd9d35be60d68585092de2c310"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.microapp.demo.concur.DemoConcurService",
+    "version" : "0.1.0",
+    "title" : "SAP Concur integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Concur.7f4236c35298ebbe5598db9a66e70273.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "DEMO" ],
+    "created" : "2020-04-09T07:12:26",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "4c363835-7e4e-4c76-aad6-d272d5f32fb1",
+      "title" : "Approvals (Demo)",
+      "action" : false,
+      "numberOfEvents" : 3
+    }, {
+      "uuid" : "d4ca460c-03af-4b32-9f6c-fb600ee3cd63",
+      "title" : "Submit Quick Expense (Demo)",
+      "action" : true,
+      "numberOfEvents" : 1
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "help.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.microapp.demo.concur.DemoConcurService_0.1.0.zip",
+    "hashChecksum" : "b5106f640c277ec5419df535b6e21e9b264026708625619ccceef77d1963d0ab"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.microapp.demo.google.calendar.DemoGoogleCalendarService",
+    "version" : "0.1.0",
+    "title" : "G Suite Calendar integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Google_Calendar.49ecbc91f9a87479ef8e2cbaab54bfb2.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "DEMO" ],
+    "created" : "2020-04-09T07:11:57",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "9e95e714-e49b-4f4c-ac0f-b0906d04cf97",
+      "title" : "Calendar Events (Demo)",
+      "action" : true,
+      "numberOfEvents" : 1
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "help.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.microapp.demo.google.calendar.DemoGoogleCalendarService_0.1.0.zip",
+    "hashChecksum" : "277a16da95d5fab30f3929e06bbf7ca06e521b41bd36122a806e6e273f1e1f81"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.microapp.demo.google.directory.DemoGoogleDirectoryService",
+    "version" : "0.1.0",
+    "title" : "G Suite Directory integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/G-Suite.8c072bd908962e58deb2abedbc8b9cd2.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "DEMO" ],
+    "created" : "2020-04-09T07:12:04",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "78c6777c-3e90-4d82-a96e-e34127e92e3c",
+      "title" : "Directory Details (Demo)",
+      "action" : false,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "be5dcabf-3941-4f80-afc9-b907cb656d8d",
+      "title" : "Directory Admin (Demo)",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "help.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.microapp.demo.google.directory.DemoGoogleDirectoryService_0.1.0.zip",
+    "hashChecksum" : "92568bd4aa7f3da3594999bc84116b41ebcd309571b493829ec79125e6171f11"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.microapp.demo.invoices.DemoInvoicesService",
+    "version" : "0.1.0",
+    "title" : "Invoices integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/HTTP.b662c61cecf295906ef0af18be93b25a.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "INTERNAL_DEVELOPMENT" ],
+    "created" : "2020-04-09T06:38:41",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "en" ],
+    "apps" : [ {
+      "uuid" : "e12dbc49-7677-4762-98a7-785c18cf80fd",
+      "title" : "Invoices integration",
+      "action" : false,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "help.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.microapp.demo.invoices.DemoInvoicesService_0.1.0.zip",
+    "hashChecksum" : "8d2e0e06d174cba0cb9f9b25683adafe51dfacc0f67b0b5a0b4b3933f2da9b5d"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.microapp.demo.jira.DemoJiraService",
+    "version" : "0.1.0",
+    "title" : "Jira integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/JIRA.35cdd2008e8e83479745e5635da3d7f1.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "DEMO" ],
+    "created" : "2020-04-09T07:12:10",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "359fd377-68ae-4945-a0af-f42e16831b5d",
+      "title" : "My Tickets (Demo)",
+      "action" : false,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "ae9e5a97-583c-4378-8c15-f86ba27617d5",
+      "title" : "Create Ticket (Demo)",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "help.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.microapp.demo.jira.DemoJiraService_0.1.0.zip",
+    "hashChecksum" : "fe7cc08127ad495a2d7b32358748bf01dffe0501863c76d8b10ea11c836ca48e"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.microapp.demo.salesforce.DemoSalesforceService",
+    "version" : "0.1.0",
+    "title" : "Salesforce integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Salesforce.43b28006ce57d083904eaa95297a166d.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "DEMO" ],
+    "created" : "2020-04-09T07:12:16",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "1d6abde8-cec4-4a60-a390-e6b85e0dc946",
+      "title" : "Approvals (Demo)",
+      "action" : false,
+      "numberOfEvents" : 3
+    }, {
+      "uuid" : "dcac6581-11b8-46c9-bcf3-f014ec4f93bb",
+      "title" : "My Opportunities (Demo)",
+      "action" : true,
+      "numberOfEvents" : 2
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "help.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.microapp.demo.salesforce.DemoSalesforceService_0.1.0.zip",
+    "hashChecksum" : "4313144c25d2ebd3c4d7e43527693a63f0b2dd81f7f11c4252458287cbfd9482"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.microapp.demo.servicenow.DemoServicenowService",
+    "version" : "0.1.0",
+    "title" : "ServiceNow integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ServiceNow.9a68dd66918b05acfbe29ac251e33a8d.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "DEMO" ],
+    "created" : "2020-04-09T07:12:35",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "36f70861-2a98-4fce-8c3c-47ac8311790e",
+      "title" : "Submit Incident (Demo)",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "3ab2c0da-d7cb-4ce7-b9e2-09dc1f12232f",
+      "title" : "Approve (Demo)",
+      "action" : false,
+      "numberOfEvents" : 3
+    }, {
+      "uuid" : "6e23ca3d-4dfb-489b-ad21-fceeffbd6658",
+      "title" : "Submit Problem (Demo)",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "b154143d-0d0c-4a94-ada3-dc8df2c3b72a",
+      "title" : "Submit Change Request (Demo)",
+      "action" : true,
+      "numberOfEvents" : 2
+    } ],
+    "vaResolvers" : [ {
+      "name" : "ServiceDesk Detaills",
+      "intentName" : "ServiceDesk.Details"
+    }, {
+      "name" : "ServiceDesk Details Change Request",
+      "intentName" : "ServiceDesk.Details.ChangeRequest"
+    }, {
+      "name" : "ServiceDesk Details Incident",
+      "intentName" : "ServiceDesk.Details.Incident"
+    }, {
+      "name" : "ServiceDesk Details Problem",
+      "intentName" : "ServiceDesk.Details.Problem"
+    }, {
+      "name" : "ServiceDesk Lookup",
+      "intentName" : "ServiceDesk.Lookup"
+    }, {
+      "name" : "ServiceDesk Lookup Change Request",
+      "intentName" : "ServiceDesk.Lookup.ChangeRequest"
+    }, {
+      "name" : "ServiceDesk Lookup Incident",
+      "intentName" : "ServiceDesk.Lookup.Incident"
+    }, {
+      "name" : "ServiceDesk Lookup Problem",
+      "intentName" : "ServiceDesk.Lookup.Problem"
+    } ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "help.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.microapp.demo.servicenow.DemoServicenowService_0.1.0.zip",
+    "hashChecksum" : "0a074b17c1d985f0fea26c89f85cc70c003142c2fc1fbb41316fd1792702ac61"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.microapp.demo.spice.DemoSpiceService",
+    "version" : "0.1.0",
+    "title" : "Spice integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/HTTP.b662c61cecf295906ef0af18be93b25a.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "INTERNAL_DEVELOPMENT" ],
+    "created" : "2020-04-09T07:02:48",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "5ed83783-b11f-46dd-85d1-b26cad2ca25e",
+      "title" : "Arrakis",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "help.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.microapp.demo.spice.DemoSpiceService_0.1.0.zip",
+    "hashChecksum" : "1de0f54d295fd6c9dea190f608aa8ac089001c969cebdc0aca3ab5b62313c4d5"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.microapp.demo.workday.DemoWorkdayService",
+    "version" : "0.1.0",
+    "title" : "Workday integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Workday.53a6fa429a68457228ca68adf0c387e6.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "DEMO" ],
+    "created" : "2020-04-09T07:12:41",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "c4b4e924-4af9-454a-b316-0c797faba9fa",
+      "title" : "Approvals (Demo)",
+      "action" : false,
+      "numberOfEvents" : 1
+    } ],
+    "vaResolvers" : [ {
+      "name" : "Directory  Details",
+      "intentName" : "Directory.Details"
+    }, {
+      "name" : "Directory Lookup",
+      "intentName" : "Directory.Lookup"
+    }, {
+      "name" : "Directory Question Address",
+      "intentName" : "Directory.Question.Address"
+    }, {
+      "name" : "Directory Question Email",
+      "intentName" : "Directory.Question.Email"
+    }, {
+      "name" : "Directory Question Location",
+      "intentName" : "Directory.Question.Location"
+    }, {
+      "name" : "Directory Question Manager",
+      "intentName" : "Directory.Question.Manager"
+    }, {
+      "name" : "Directory Question Phone",
+      "intentName" : "Directory.Question.Phone"
+    }, {
+      "name" : "Directory Question Position",
+      "intentName" : "Directory.Question.Position"
+    } ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "help.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.microapp.demo.workday.DemoWorkdayService_0.1.0.zip",
+    "hashChecksum" : "b5e770a4e33a69f344c28798a3448bae3eed5cfda7224117ceda8925c056fec0"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.sapho.services.ariba.AribaService",
+    "version" : "0.1.7",
+    "title" : "SAP Ariba integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Ariba.51e0c216c1507cb16edb31bc47030a9e.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-04-09T07:07:28",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "3d07fa7d-9695-42c1-9e9d-d41edf842f09",
+      "title" : "Requisition Approval",
+      "action" : true,
+      "numberOfEvents" : 4
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-ariba.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.ariba.AribaService_0.1.7.zip",
+    "hashChecksum" : "ab40563fffa14f7e6c5d0ab38e313f6ffc93c77a37839187309082ad3d8da4d0"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
     "id" : "com.sapho.services.concur.ConcurService",
     "version" : "0.7.6",
     "title" : "SAP Concur integration",
@@ -54,12 +423,221 @@
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
+    "id" : "com.sapho.services.dynamics.DynamicsCrmService",
+    "version" : "0.1.4",
+    "title" : "MS Dynamics CRM integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ms-dynamics.28edaa50cab25022690f675dc95e059e.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-04-09T06:41:15",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "0f642fde-25ef-4b2b-b2e2-d0308157481b",
+      "title" : "Phone Calls",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "13e23526-87b0-4361-b890-4f79b8f46c1f",
+      "title" : "Cases",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "1b9e472d-7bbd-4728-a7d8-1a831a27ed73",
+      "title" : "Create Phone Call",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "35d9dfc6-617f-4c8c-8402-e78c8377d57f",
+      "title" : "Create Opportunity",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "40c6c364-4087-479b-b137-38fc87dfe54b",
+      "title" : "Tasks",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "42053b77-e954-46f9-812c-7b15883ef933",
+      "title" : "Create Appointment",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "44ee0b42-6111-4cf3-ab80-9d86160327a0",
+      "title" : "Create Contact",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "4f92e07f-2ea2-4754-8aed-3910001415b0",
+      "title" : "Accounts",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "66fd5284-962c-44a9-8f5d-0b8794c95385",
+      "title" : "Appointments",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "78a8eb8e-c0f4-4b94-8566-66efd374742b",
+      "title" : "Create Task",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "9e988d55-a3e4-409c-8180-e7ec450443ee",
+      "title" : "Opportunities",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "a5a938f5-09d5-42a8-8dd7-6cff6aaad93d",
+      "title" : "Create Account",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "cc82fa2c-c96a-4592-ae51-33ec3c94c4af",
+      "title" : "Create Case",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "ceaf5c9f-29ab-499f-8afc-6d2d94171117",
+      "title" : "Create Lead",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "d0045c0f-27b2-4e79-b492-0d32718cebf0",
+      "title" : "Leads",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "d4dbf203-7a41-430f-ab22-1c1f6c68ea6e",
+      "title" : "Contacts",
+      "action" : true,
+      "numberOfEvents" : 2
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-ms-dynamics.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.dynamics.DynamicsCrmService_0.1.4.zip",
+    "hashChecksum" : "4383f78153447a1cd21b6e24e04296404d1baacfbaee293ab7851033f16ce1f9"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.sapho.services.googleanalytics.GoogleAnalyticsService",
+    "version" : "0.1.0",
+    "title" : "Google Analytics integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Google_Analytics.4c678d0ef84bf5453ca89619f226d968.svg",
+    "masVersion" : "1.9.7-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-04-07T07:29:17",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "5948c820-a750-470c-a290-8fa5a7132082",
+      "title" : "User Metrics",
+      "action" : false,
+      "numberOfEvents" : 4
+    }, {
+      "uuid" : "e60412dc-bd1d-4cf1-b043-dbffd166a0c6",
+      "title" : "Sessions Metrics",
+      "action" : true,
+      "numberOfEvents" : 4
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-google-analytics.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.googleanalytics.GoogleAnalyticsService_0.1.0.zip",
+    "hashChecksum" : "fbee135bdcff7123c4f049a8f077a3f4f8b28ebe8ba6ac4b8a3a2eb4d62d89c7"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.sapho.services.googlecalendar.GoogleCalendarService",
+    "version" : "0.1.3",
+    "title" : "G Suite Calendar integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Google_Calendar.49ecbc91f9a87479ef8e2cbaab54bfb2.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-04-09T06:35:44",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "21da1f31-ee7b-4b03-8141-431763d0aeb4",
+      "title" : "Events",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "64654ff0-8230-40bb-b5d4-3ead17afef7a",
+      "title" : "Create Event",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-g-suite.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.googlecalendar.GoogleCalendarService_0.1.3.zip",
+    "hashChecksum" : "9a2abd27a0319e58cf94e71a96663792b1a0d88cc504a9465f27f37c82d2bee4"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.sapho.services.googleforwork.GoogleForWorkService",
+    "version" : "0.6.0",
+    "title" : "G Suite Directory integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/G-Suite.8c072bd908962e58deb2abedbc8b9cd2.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "IDENTITY_PROVIDERS" ],
+    "created" : "2020-04-09T06:37:46",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "1eb836f3-6cbf-4265-8421-7502fcdafcd3",
+      "title" : "Directory Admin",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "6ff77d1c-850f-42fe-8821-d53d863c01c6",
+      "title" : "My Details",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "78c596ef-c536-4382-866d-cb65bdcc4007",
+      "title" : "Users",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "c76d63e9-433e-4137-a33c-c07a930bb6c8",
+      "title" : "Groups",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "d2655ad7-9f4b-452b-aae8-f111fb75e71b",
+      "title" : "Create User",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-g-suite.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.googleforwork.GoogleForWorkService_0.6.0.zip",
+    "hashChecksum" : "0b30b521f2439cac104748ed266e5d37e36b3b56bf3524be94db49a43c50db55"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
     "id" : "com.sapho.services.jira.JiraService",
     "version" : "0.2.4",
     "title" : "JIRA integration",
     "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/JIRA.35cdd2008e8e83479745e5635da3d7f1.svg",
-    "masVersion" : "1.9.16",
+    "masVersion" : "1.9.16-SNAPSHOT",
     "categories" : [ "WEB_SERVICES" ],
     "created" : "2020-04-06T13:30:30",
     "supportsOAuthForActions" : true,
@@ -87,7 +665,38 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-jira.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.jira.JiraService_0.2.4.zip",
-    "hashChecksum" : "84ccf10401977269b57274e87785f2d9b7c91573d9f533fbb352f6f5c0a613c3"
+    "hashChecksum" : "bbcde1b9cbaeecd1689339b2e1e7eea9bee1d2e5347b3a3f8ec4c3cfa3f6e368"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.sapho.services.powerbi.PowerBiService",
+    "version" : "0.2.0",
+    "title" : "Power BI integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ms-powerbi.394a2264d9f5fd50df5b617ca3a0a5ce.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-04-09T06:47:33",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "0eba347c-6748-451b-a30d-cb66461de998",
+      "title" : "Reports",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "9c7821f9-18d7-44fe-903f-a7af2bcc0a14",
+      "title" : "Dashboards",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-power-bi.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.powerbi.PowerBiService_0.2.0.zip",
+    "hashChecksum" : "43b04cb21a010d6cffc8212cad1679fc9b2838b57f0dd235e3db6b664325d0f4"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -365,6 +974,142 @@
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
+    "id" : "com.sapho.services.successfactors.SuccessFactorsService",
+    "version" : "0.3.2",
+    "title" : "SAP SuccessFactors integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/SuccessFactors.833a1da8b80b77391f222cbc6210e98c.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-04-09T10:29:02",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "494bac91-e24b-45d3-8745-7e0628773bdb",
+      "title" : "Learning",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "fd05f0dc-f0de-46ad-8444-84f3943e6480",
+      "title" : "Directory",
+      "action" : true,
+      "numberOfEvents" : 2
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-successfactors.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.successfactors.SuccessFactorsService_0.3.2.zip",
+    "hashChecksum" : "718bca77cc0affca714aff3f1308917d4c251fe10f821128300e8628117991b9"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.sapho.services.workday.WorkdayService",
+    "version" : "0.1.11",
+    "title" : "Workday integration",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Workday.53a6fa429a68457228ca68adf0c387e6.svg",
+    "masVersion" : "1.9.17-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-04-09T07:05:11",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "1b08f713-1dc0-4e64-883b-2d4c3a8f43fe",
+      "title" : "My PTO Requests",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "2e91deaa-2f55-4da1-ac71-5a9e07aa758b",
+      "title" : "Create Change Job",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "3521e5b8-b4b5-4bf2-b809-b9972bf71eab",
+      "title" : "Change Job Requests",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "3e9c3df3-03ba-4694-ae35-48940a493edd",
+      "title" : "Expense Reports",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "5aaf28fe-c22d-48c0-9453-e62ff46eb2df",
+      "title" : "Create Milestone",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "5c58ba70-7450-4868-bf67-ba795fb9ce90",
+      "title" : "My Expenses",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "5fa0ed5d-0fdc-412e-a81a-8f5c0c6d80e9",
+      "title" : "My Purchase Orders",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "6435dd3c-7ae2-436b-967d-8369c927090e",
+      "title" : "PTO Balance",
+      "action" : false,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "75e10974-c8da-403a-ac40-07a1bf215759",
+      "title" : "Milestones",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "8eb7143f-1694-4f38-a3a6-3c9e56649dc1",
+      "title" : "PTO Requests",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "94c9acfd-f4c6-46c2-a58c-f6267fcd6ea1",
+      "title" : "Create Expense Report",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "ef0ea0b1-0a0e-4861-87fb-4aae472012a4",
+      "title" : "Create PTO Request",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ {
+      "name" : "Directory Details",
+      "intentName" : "Directory.Details"
+    }, {
+      "name" : "Directory Lookup",
+      "intentName" : "Directory.Lookup"
+    }, {
+      "name" : "Directory Question Address",
+      "intentName" : "Directory.Question.Address"
+    }, {
+      "name" : "Directory Question Email",
+      "intentName" : "Directory.Question.Email"
+    }, {
+      "name" : "Directory Question Location",
+      "intentName" : "Directory.Question.Location"
+    }, {
+      "name" : "Directory Question Manager",
+      "intentName" : "Directory.Question.Manager"
+    }, {
+      "name" : "Directory Question Phone",
+      "intentName" : "Directory.Question.Phone"
+    }, {
+      "name" : "Directory Question Position",
+      "intentName" : "Directory.Question.Position"
+    } ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-workday.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.workday.WorkdayService_0.1.11.zip",
+    "hashChecksum" : "39eb229ef711606180d750029e63b050c0a1872928ee38914e225890c55e9a23"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
     "id" : "com.sapho.services.zendesk.ZendeskService",
     "version" : "0.1.0",
     "title" : "Zendesk integration",
@@ -397,7 +1142,7 @@
     "type" : "HTTP",
     "vendor" : "Citrix",
     "id" : "5b68dfff-fd97-4593-aaf7-ecafd9b56b23",
-    "title" : "HTTP JIRA Integration",
+    "title" : "HTTP JIRA",
     "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/HTTP.b662c61cecf295906ef0af18be93b25a.svg",
     "masVersion" : "1.7.3",
@@ -414,12 +1159,12 @@
     "vaResolvers" : [ ],
     "tags" : [ ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_5b68dfff-fd97-4593-aaf7-ecafd9b56b23.zip",
-    "hashChecksum" : "d766269dfd38cbfa71b50a8bfeba5d9bfe684f19467f84081b081f003a2dc8a8"
+    "hashChecksum" : "0896e1f81aea43881a8939833104246b233cdac49f8800cd125cfa295c11ba0a"
   }, {
     "type" : "HTTP",
     "vendor" : "Citrix",
     "id" : "aa190bbb-79e8-4281-8bc4-7d7941432e9c",
-    "title" : "Zendesk",
+    "title" : "HTTP Zendesk",
     "description" : "Zendesk HTTP integration with OAuth\n\nKnown issues / potential enhancements:\n1) Localisation is done only for English\n2) Ticket tags are not supported\n3) If Update Status needs to be amended with changes of other items than additional buttons with different API calls needs to introduces (E.G.: priority cannot be part of the call if it has an empty value)\n4) Tickets with \"status\": \"deleted\" would be better to remove from synchronisation\n",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Zendesk.c23ddbbea04b28e5303cb5046b14aa7c.svg",
     "masVersion" : "1.7.7",
@@ -441,12 +1186,12 @@
     "vaResolvers" : [ ],
     "tags" : [ ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_aa190bbb-79e8-4281-8bc4-7d7941432e9c.zip",
-    "hashChecksum" : "37a1ce5072a43fccfd9300543b1521824a6f609dede1971f65d06c8653d20752"
+    "hashChecksum" : "4f9c0acd1a3449cef9fbb5c5b1bbf74fc0765e5d516ba38beece74dab20ef4fe"
   }, {
     "type" : "HTTP",
     "vendor" : "Citrix",
     "id" : "e7bdd5fa-4d2e-46c2-8302-89b918ad421c",
-    "title" : "ServiceNow HTTP integration",
+    "title" : "HTTP ServiceNow",
     "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ServiceNow.9a68dd66918b05acfbe29ac251e33a8d.svg",
     "masVersion" : "1.6.2",
@@ -478,7 +1223,7 @@
     "vaResolvers" : [ ],
     "tags" : [ ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_e7bdd5fa-4d2e-46c2-8302-89b918ad421c.zip",
-    "hashChecksum" : "db443915baae6aa6229857d1ca354f69339b17ec7809783a737d13fd50c9bc85"
+    "hashChecksum" : "7096e9e40fdb0d291776018c6658fc685634d4f84e5bdd5c37eb81d7d94c3a23"
   }, {
     "type" : "HTTP",
     "vendor" : "AcmeCorp",
