@@ -1142,7 +1142,7 @@
     "type" : "HTTP",
     "vendor" : "Citrix",
     "id" : "5b68dfff-fd97-4593-aaf7-ecafd9b56b23",
-    "title" : "HTTP JIRA",
+    "title" : "JIRA",
     "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/HTTP.b662c61cecf295906ef0af18be93b25a.svg",
     "masVersion" : "1.7.3",
@@ -1159,12 +1159,69 @@
     "vaResolvers" : [ ],
     "tags" : [ ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_5b68dfff-fd97-4593-aaf7-ecafd9b56b23.zip",
-    "hashChecksum" : "0896e1f81aea43881a8939833104246b233cdac49f8800cd125cfa295c11ba0a"
+    "hashChecksum" : "9f3e9de3ddaafda34ba79e457aaf08174342b6aa22329e43ebd69489adda7cb6"
+  }, {
+    "type" : "HTTP",
+    "vendor" : "Citrix",
+    "id" : "9ec6b7b5-8aad-4b5a-929b-d6a59cf8e7ad",
+    "title" : "ServiceNow",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ServiceNow.9a68dd66918b05acfbe29ac251e33a8d.svg",
+    "masVersion" : "1.10.1-SNAPSHOT",
+    "categories" : [ ],
+    "created" : "2020-04-15T13:49:00",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "en" ],
+    "apps" : [ {
+      "uuid" : "2028c298-a2c1-4217-9093-990d238228e6",
+      "title" : "Incidents",
+      "action" : true,
+      "numberOfEvents" : 7
+    }, {
+      "uuid" : "3b8f9862-8bc5-4c5e-9a37-a0e2f169e29f",
+      "title" : "Submit Incident",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "57f91f8e-833e-4dc4-a353-ec67d22d6dea",
+      "title" : "Submit Delegate",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "75ecaf0d-6267-4d1e-85e8-94a8c68ab0b7",
+      "title" : "Submit Change Request",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "ae59eb90-677c-4655-a871-73a3087381f1",
+      "title" : "Change Requests",
+      "action" : true,
+      "numberOfEvents" : 7
+    }, {
+      "uuid" : "dced385f-1f0d-4439-966c-237010e5885b",
+      "title" : "Problems",
+      "action" : true,
+      "numberOfEvents" : 5
+    }, {
+      "uuid" : "e317d946-3032-4a1c-b5ca-c8af73e82447",
+      "title" : "Submit Problem",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "f93e5104-9989-402a-8595-ca9804c1bf13",
+      "title" : "Request Approval",
+      "action" : true,
+      "numberOfEvents" : 4
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_9ec6b7b5-8aad-4b5a-929b-d6a59cf8e7ad.zip",
+    "hashChecksum" : "b51f1032d2e3118bb85920267dfadc4f0468e0cd8e537bfb2bd35e42d465ce55"
   }, {
     "type" : "HTTP",
     "vendor" : "Citrix",
     "id" : "aa190bbb-79e8-4281-8bc4-7d7941432e9c",
-    "title" : "HTTP Zendesk",
+    "title" : "Zendesk",
     "description" : "Zendesk HTTP integration with OAuth\n\nKnown issues / potential enhancements:\n1) Localisation is done only for English\n2) Ticket tags are not supported\n3) If Update Status needs to be amended with changes of other items than additional buttons with different API calls needs to introduces (E.G.: priority cannot be part of the call if it has an empty value)\n4) Tickets with \"status\": \"deleted\" would be better to remove from synchronisation\n",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Zendesk.c23ddbbea04b28e5303cb5046b14aa7c.svg",
     "masVersion" : "1.7.7",
@@ -1186,44 +1243,7 @@
     "vaResolvers" : [ ],
     "tags" : [ ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_aa190bbb-79e8-4281-8bc4-7d7941432e9c.zip",
-    "hashChecksum" : "4f9c0acd1a3449cef9fbb5c5b1bbf74fc0765e5d516ba38beece74dab20ef4fe"
-  }, {
-    "type" : "HTTP",
-    "vendor" : "Citrix",
-    "id" : "e7bdd5fa-4d2e-46c2-8302-89b918ad421c",
-    "title" : "HTTP ServiceNow",
-    "description" : "",
-    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ServiceNow.9a68dd66918b05acfbe29ac251e33a8d.svg",
-    "masVersion" : "1.6.2",
-    "categories" : [ ],
-    "created" : "2020-02-26T20:04:18",
-    "supportsOAuthForActions" : true,
-    "i18nLanguages" : [ "en" ],
-    "apps" : [ {
-      "uuid" : "1b2985fa-702a-4bc9-8ff5-943302b5ee2d",
-      "title" : "Submit Problem",
-      "action" : true,
-      "numberOfEvents" : 0
-    }, {
-      "uuid" : "60e65e22-d981-45bf-bfd4-f1e82bb28b54",
-      "title" : "Incidents",
-      "action" : true,
-      "numberOfEvents" : 0
-    }, {
-      "uuid" : "8a03f596-462a-49f1-ae52-def83156a6aa",
-      "title" : "Submit Incident",
-      "action" : true,
-      "numberOfEvents" : 0
-    }, {
-      "uuid" : "cfd8d08e-7167-4255-9d93-babb282102e0",
-      "title" : "Request Approval",
-      "action" : true,
-      "numberOfEvents" : 1
-    } ],
-    "vaResolvers" : [ ],
-    "tags" : [ ],
-    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_e7bdd5fa-4d2e-46c2-8302-89b918ad421c.zip",
-    "hashChecksum" : "7096e9e40fdb0d291776018c6658fc685634d4f84e5bdd5c37eb81d7d94c3a23"
+    "hashChecksum" : "37a1ce5072a43fccfd9300543b1521824a6f609dede1971f65d06c8653d20752"
   }, {
     "type" : "HTTP",
     "vendor" : "AcmeCorp",
