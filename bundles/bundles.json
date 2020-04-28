@@ -638,7 +638,7 @@
     "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/JIRA.35cdd2008e8e83479745e5635da3d7f1.svg",
     "masVersion" : "1.9.16-SNAPSHOT",
-    "categories" : [ "WEB_SERVICES" ],
+    "categories" : [ "LEGACY" ],
     "created" : "2020-04-06T13:30:30",
     "supportsOAuthForActions" : true,
     "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
@@ -665,7 +665,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-jira.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.jira.JiraService_0.2.4.zip",
-    "hashChecksum" : "bf188532e1723f69ed5e41fef662bc2642a6deab92b90f05dc4f49133d0a3c43"
+    "hashChecksum" : "9441c1abfdafc8e4f710c67db8361920f8e63d64fe7f38af600028a3faa1f296"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -890,7 +890,7 @@
     "description" : "Using DIP.",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ServiceNow.9a68dd66918b05acfbe29ac251e33a8d.svg",
     "masVersion" : "1.9.17-SNAPSHOT",
-    "categories" : [ ],
+    "categories" : [ "LEGACY" ],
     "created" : "2020-04-08T03:46:52",
     "supportsOAuthForActions" : true,
     "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
@@ -970,7 +970,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-servicenow.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.servicenow.ServiceNowService_0.3.2.zip",
-    "hashChecksum" : "96f41d844f89970c6d8f41e49a70e806291e3e557570aa0d498285e293e18633"
+    "hashChecksum" : "ee6eae646c83e377a2f4a9e2c100bcb647937d73aae99890cdd4bb012b987eef"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -1116,7 +1116,7 @@
     "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Zendesk.c23ddbbea04b28e5303cb5046b14aa7c.svg",
     "masVersion" : "1.9.17-SNAPSHOT",
-    "categories" : [ "WEB_SERVICES" ],
+    "categories" : [ "LEGACY" ],
     "created" : "2020-04-07T13:54:25",
     "supportsOAuthForActions" : true,
     "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
@@ -1137,7 +1137,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-zendesk.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.zendesk.ZendeskService_0.1.0.zip",
-    "hashChecksum" : "65af80e07d92969bc39dea016ba3d04343433dd887ebd8979c2e3cc51ac2401a"
+    "hashChecksum" : "d6874b8851ff3d334cc0e9495c333a72a32ed1220dbb4c0de24816ace1115d98"
   }, {
     "type" : "HTTP",
     "vendor" : "Citrix",
