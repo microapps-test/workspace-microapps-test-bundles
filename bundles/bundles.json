@@ -1141,6 +1141,103 @@
   }, {
     "type" : "HTTP",
     "vendor" : "Citrix",
+    "id" : "0a529a30-e463-4fb5-afc3-4dc9b9547a6e",
+    "title" : "HTTP integration MS Dynamics",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ms-dynamics.28edaa50cab25022690f675dc95e059e.svg",
+    "masVersion" : "1.12.9",
+    "categories" : [ "INTERNAL_DEVELOPMENT" ],
+    "created" : "2020-05-13T14:33:24",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "en" ],
+    "apps" : [ {
+      "uuid" : "0f9d65a1-8e7f-4921-b590-ceb32f774196",
+      "title" : "Create Account",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "0fdd94ec-2271-4cf3-8c8e-d7adf418db2c",
+      "title" : "Appointments",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "1817d0a2-bf41-4975-ac22-7cb5a15e2b10",
+      "title" : "Create Appointment",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "3aa0c0fa-681b-4258-887d-91498e69df36",
+      "title" : "Create Phone Call",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "50d17a1b-0c67-4954-ba1c-5fd6279a1a37",
+      "title" : "Create Task",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "5e04bd98-b60b-42f0-b726-18e85424ebba",
+      "title" : "Tasks",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "6828b350-8775-4e4b-b67b-986c6534182f",
+      "title" : "Create Contact",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "6bef7d22-dd33-449c-a7e0-31642c3ce63b",
+      "title" : "Create Case",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "728155d0-a866-4673-8269-66cdf81456a9",
+      "title" : "Create Lead",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "7600cf66-e7b7-4e74-99b6-b76b5315a11a",
+      "title" : "Phone Calls",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "ab65f6df-5c6c-4dcd-b90e-ffe24fa42e8c",
+      "title" : "Create Opportunity",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "b009d5fd-b10f-45b1-9896-ee899483fed1",
+      "title" : "Accounts",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "d8d186fd-71c4-4f5f-95a0-2a8f820095b6",
+      "title" : "Cases",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "e2e42140-8910-4564-a2a6-aa09ae22d790",
+      "title" : "Opportunities",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "e63a679f-6439-4401-a983-c2a4b1cc41cf",
+      "title" : "Leads",
+      "action" : true,
+      "numberOfEvents" : 2
+    }, {
+      "uuid" : "e9156912-d892-4408-bd27-1d542af9a82c",
+      "title" : "Contacts",
+      "action" : true,
+      "numberOfEvents" : 2
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_0a529a30-e463-4fb5-afc3-4dc9b9547a6e.zip",
+    "hashChecksum" : "9259586cd5f0625284d3d0f1816b738631074f1769f47214fb24c37b6dd2ce64"
+  }, {
+    "type" : "HTTP",
+    "vendor" : "Citrix",
     "id" : "5b68dfff-fd97-4593-aaf7-ecafd9b56b23",
     "title" : "JIRA",
     "description" : "",
