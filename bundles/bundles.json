@@ -367,7 +367,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-ariba.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.ariba.AribaService_0.1.7.zip",
-    "hashChecksum" : "f41c8c7830505586fb8afba83f70d100363ffa286ac8cb3ef1125bee3418c6ad"
+    "hashChecksum" : "d68412d0e1cc8627fa30b15d2b3f210397acc49570eada81a5a84f16bfcf05d3"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -419,7 +419,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-concur.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.concur.ConcurService_0.7.6.zip",
-    "hashChecksum" : "c43d854ee450a5a1d4c24f2b79178f82866e6859cfd2f1f43de919c7cb2d19f1"
+    "hashChecksum" : "f0e41ac375fd1421b487b959dc23d7209cf08565b63dddb30dd6657cadba9ce5"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -520,7 +520,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-ms-dynamics.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.dynamics.DynamicsCrmService_0.1.4.zip",
-    "hashChecksum" : "149e93f7f345d78b3ba1e9eafe36b1565629d5003b86716eca3a5ee7594c810e"
+    "hashChecksum" : "19380d963e71d673d91fce5dff0ff55a729d2bcdaeef5e7d76e2a42578782c3c"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -551,7 +551,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-google-analytics.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.googleanalytics.GoogleAnalyticsService_0.1.0.zip",
-    "hashChecksum" : "04f8145191ca58dea6c2969f5968f4e09b13001f323c43ccb6ffc23c365bf479"
+    "hashChecksum" : "cee763ffd911d467a74695db074e1c633a96561b5bc5a68a418097c95c402866"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -582,7 +582,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-g-suite.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.googlecalendar.GoogleCalendarService_0.1.3.zip",
-    "hashChecksum" : "2b777465338caa79596816d69ea6468bbaae3228fa2dccf8dcfdd80f5d99eff9"
+    "hashChecksum" : "c41305ab7dae6e1b65648ce11c3a5569154074638532122b25fa869349eaf973"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -628,7 +628,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-g-suite.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.googleforwork.GoogleForWorkService_0.6.0.zip",
-    "hashChecksum" : "d2029b35d806ba11f97f51074af4b31259b15a8a4ab5e5e0190e9823ce42fd1d"
+    "hashChecksum" : "c5068813ea0eae5d63b55b03257374c8fba1a91554109ba4ab9795d57b76301e"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -665,7 +665,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-jira.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.jira.JiraService_0.2.4.zip",
-    "hashChecksum" : "9441c1abfdafc8e4f710c67db8361920f8e63d64fe7f38af600028a3faa1f296"
+    "hashChecksum" : "869ba39e155739f5ccdcd80e90ae565d7d4a6008de6edfdb8d47956389f7607d"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -733,7 +733,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-power-bi.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.powerbi.PowerBiService_0.2.0.zip",
-    "hashChecksum" : "ee2abd5f34ce7cb5bb94e1409074b8d267e02e27d2a4f850f58354133b057725"
+    "hashChecksum" : "6ae6a348bb6d418389e7ce82f870ccd63df334b0b91825bbd4fac722ba0f8808"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -759,7 +759,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-rss.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.rss.RssService_0.2.1.zip",
-    "hashChecksum" : "85d091af42df339be9af6d8399573436845d15dcfd3db4f49d3f456e44c467cd"
+    "hashChecksum" : "31b3f42ac7a9168bf4a0446f00124c5e95057ada702725e91ee456de7666a4f4"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -917,7 +917,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-salesforce.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.salesforce.SalesforceService_0.1.6.zip",
-    "hashChecksum" : "a81bfa8f97720b1e61c16859167eb18ae6a4307cb3e4e12f052ca003302fc26e"
+    "hashChecksum" : "c3abc0a17dc9b566ac0c4a04a634b2a65de3d5c6753393d9a8cf6cb59f64f105"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -1165,7 +1165,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-servicenow.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.servicenow.ServiceNowService_0.3.2.zip",
-    "hashChecksum" : "ee6eae646c83e377a2f4a9e2c100bcb647937d73aae99890cdd4bb012b987eef"
+    "hashChecksum" : "771797706f4d1237d5c179d9b247cf3bdc00a060da38bf3b4c10ba4844395856"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -1286,7 +1286,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-successfactors.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.successfactors.SuccessFactorsService_0.3.2.zip",
-    "hashChecksum" : "30faf2010a672b0df8af9dea4f2a72482fe35d075bcf2b58ec782e4c434ea7c4"
+    "hashChecksum" : "e81b41cb6b28258553c1847fbae6b4c4cd11b0ee50d72d49c61ee3d636f5e741"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -1391,7 +1391,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-workday.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.workday.WorkdayService_0.1.11.zip",
-    "hashChecksum" : "51fa51763fcce990f112737b1c09b4051b97a52f791e5758d93f3d355a4cb554"
+    "hashChecksum" : "df6784375cf749d5212446421bff70a505d3e0bcaa18d5eefab77beb5641eb86"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -1527,7 +1527,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-zendesk.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.zendesk.ZendeskService_0.1.0.zip",
-    "hashChecksum" : "d6874b8851ff3d334cc0e9495c333a72a32ed1220dbb4c0de24816ace1115d98"
+    "hashChecksum" : "75b011b17f3b0df80aa8a77ef47840dfbc43b32b4808c92055b8d886ee1bd89b"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
