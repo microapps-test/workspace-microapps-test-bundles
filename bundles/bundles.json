@@ -924,7 +924,7 @@
     "id" : "com.sapho.services.salesforce.SalesforceService",
     "version" : "0.1.9",
     "title" : "Salesforce",
-    "description" : "SalesForce",
+    "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Salesforce.43b28006ce57d083904eaa95297a166d.svg",
     "masVersion" : "1.13.0-SNAPSHOT",
     "categories" : [ "WEB_SERVICES" ],
@@ -1075,7 +1075,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-salesforce.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.salesforce.SalesforceService_0.1.9.zip",
-    "hashChecksum" : "abbb941c9ef17c67f8fc526abb59dadc3243ff83cbf53936c037384ad3dcbd70"
+    "hashChecksum" : "acac711ac7965d5d8c952e0a77ebf14e30624ae51927be9d8825295fef3a108e"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -1397,8 +1397,8 @@
     "vendor" : "Citrix",
     "id" : "com.sapho.services.workday.WorkdayService",
     "version" : "0.1.12",
-    "title" : "Workday integration",
-    "description" : "Workday",
+    "title" : "Workday",
+    "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Workday.53a6fa429a68457228ca68adf0c387e6.svg",
     "masVersion" : "1.11.6-SNAPSHOT",
     "categories" : [ "WEB_SERVICES" ],
@@ -1496,7 +1496,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-workday.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.workday.WorkdayService_0.1.12.zip",
-    "hashChecksum" : "9d15799e898e0e0add56a8a4003b510d9fa043cd496de0bcecdcc8212c7bbab9"
+    "hashChecksum" : "24d5cfdf9bf9c3586beae7491937f1e58794a560a38517a00faf8f86ad64c426"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -1818,9 +1818,9 @@
     "vendor" : "Citrix",
     "id" : "NewServiceComingSoon",
     "version" : "0.2.0-beta",
-    "title" : "JIRA integration - Coming soon",
-    "description" : "Lets you build a mobile app connected to your JIRA instance.",
-    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/JIRA.35cdd2008e8e83479745e5635da3d7f1.svg",
+    "title" : "Brand new super service",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/HTTP.b662c61cecf295906ef0af18be93b25a.svg",
     "categories" : [ "COMING_SOON" ],
     "created" : "2020-03-18T10:14:29",
     "tags" : [ {
@@ -1833,6 +1833,6 @@
     "apps" : [ ],
     "vaResolvers" : [ ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_NewServiceComingSoon.zip",
-    "hashChecksum" : "7a720772da0bb0aee9cf2f86386962024d09d1554468e86ea9c64b90310b6c42"
+    "hashChecksum" : "162b47c35cb6eb3d89c0a9c8a7797e4557c928a65cdb0b6c65aae3c3d13b502a"
   } ]
 }
