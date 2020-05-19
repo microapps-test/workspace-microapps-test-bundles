@@ -669,6 +669,43 @@
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
+    "id" : "com.sapho.services.jira.JiraService",
+    "version" : "0.2.5",
+    "title" : "JIRA integration",
+    "description" : "Jira",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/JIRA.35cdd2008e8e83479745e5635da3d7f1.svg",
+    "masVersion" : "1.13.3-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-05-19T15:41:05",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "00f2bc68-38a2-43e1-816e-33f28250b323",
+      "title" : "Create Ticket",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "b25b8dcd-02d7-4502-9ac5-14921a0eb6fa",
+      "title" : "Tickets",
+      "action" : true,
+      "numberOfEvents" : 9
+    } ],
+    "vaResolvers" : [ {
+      "name" : "ServiceDesk Details",
+      "intentName" : "ServiceDesk.Details"
+    }, {
+      "name" : "ServiceDesk Lookup",
+      "intentName" : "ServiceDesk.Lookup"
+    } ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-jira.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.jira.JiraService_0.2.5.zip",
+    "hashChecksum" : "677b084f7e091e508eebc2693558b88c9d8fc0c26b069b70796571c5ba380b7e"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
     "id" : "com.sapho.services.powerbi.PowerBiService",
     "version" : "0.2.0",
     "title" : "Power BI",
@@ -1132,6 +1169,96 @@
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
+    "id" : "com.sapho.services.servicenow.ServiceNowService",
+    "version" : "0.3.3",
+    "title" : "ServiceNow integration",
+    "description" : "ServiceNo",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ServiceNow.9a68dd66918b05acfbe29ac251e33a8d.svg",
+    "masVersion" : "1.12.9-SNAPSHOT",
+    "categories" : [ ],
+    "created" : "2020-05-19T15:29:34",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "00fefc95-9aef-4bb0-af53-22886e5b6980",
+      "title" : "Submit Delegate",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "3251cd2b-a547-416a-ae46-e6ca60c83e53",
+      "title" : "Submit Change Request",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "4efa3845-73f4-44f6-82dd-80143be3200e",
+      "title" : "Incidents",
+      "action" : true,
+      "numberOfEvents" : 4
+    }, {
+      "uuid" : "7d17ac96-ff3c-4962-8ac8-587ee50bac68",
+      "title" : "Problems",
+      "action" : true,
+      "numberOfEvents" : 4
+    }, {
+      "uuid" : "969ac4ca-4952-4c4d-8331-7d2452775eb7",
+      "title" : "Submit Incident",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "aede29b7-6065-4813-b014-022a71dda5bf",
+      "title" : "Approvals",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "b708829f-7c92-431b-a940-b611ab033418",
+      "title" : "Submit Catalog Request",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "c24e1354-c4c1-4052-a28a-ba7004ff365a",
+      "title" : "Change Requests",
+      "action" : true,
+      "numberOfEvents" : 4
+    }, {
+      "uuid" : "ccb2b9bc-dc95-493c-b7d1-ee9ead23356e",
+      "title" : "Submit Problem",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ {
+      "name" : "ServiceDesk Details",
+      "intentName" : "ServiceDesk.Details"
+    }, {
+      "name" : "ServiceDesk Details Change Request",
+      "intentName" : "ServiceDesk.Details.ChangeRequest"
+    }, {
+      "name" : "ServiceDesk Details Incident",
+      "intentName" : "ServiceDesk.Details.Incident"
+    }, {
+      "name" : "ServiceDesk Details Problem",
+      "intentName" : "ServiceDesk.Details.Problem"
+    }, {
+      "name" : "ServiceDesk Lookup",
+      "intentName" : "ServiceDesk.Lookup"
+    }, {
+      "name" : "ServiceDesk Lookup Change Request",
+      "intentName" : "ServiceDesk.Lookup.ChangeRequest"
+    }, {
+      "name" : "ServiceDesk Lookup Incident",
+      "intentName" : "ServiceDesk.Lookup.Incident"
+    }, {
+      "name" : "ServiceDesk Lookup Problem",
+      "intentName" : "ServiceDesk.Lookup.Problem"
+    } ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-servicenow.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.servicenow.ServiceNowService_0.3.3.zip",
+    "hashChecksum" : "1439a7989b3b13e726980160905c1dbb0195b2f955d02c517afb660b5bce4b3e"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
     "id" : "com.sapho.services.successfactors.SuccessFactorsService",
     "version" : "0.3.2",
     "title" : "SAP SuccessFactors",
@@ -1268,6 +1395,111 @@
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
+    "id" : "com.sapho.services.workday.WorkdayService",
+    "version" : "0.1.12",
+    "title" : "Workday integration",
+    "description" : "Workday",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Workday.53a6fa429a68457228ca68adf0c387e6.svg",
+    "masVersion" : "1.11.6-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-05-19T15:30:42",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "0a3e1ce6-5c4f-4c50-8ecb-b2e0c2cf0f83",
+      "title" : "My PTO Requests",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "161602f4-5ee7-4cf9-ae6d-d679ff5c686c",
+      "title" : "PTO Requests",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "294236a8-025a-4616-bb54-03adf2ced019",
+      "title" : "Milestones",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "35605f6b-210b-4566-a478-a8a8615a4490",
+      "title" : "Create Milestone",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "5eb34bc6-e6b3-4000-be95-ce8a62f2ba1c",
+      "title" : "PTO Balance",
+      "action" : false,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "6e5bd0c9-7c98-45a9-adf3-1631dad1fcba",
+      "title" : "Change Job Requests",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "7749e409-edcf-4884-bfe6-8f5264af4208",
+      "title" : "Create PTO Request",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "7893b847-70c5-404c-bdf2-4353a5613fa3",
+      "title" : "Expense Reports",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "e5fac398-480a-422e-9552-71c23d788620",
+      "title" : "Create Expense Report",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "f34b1126-7c4f-4121-a1c1-22d71f7a290d",
+      "title" : "Create Change Job",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "f9ea8a52-e836-4a90-9cd2-0e4e43c9c840",
+      "title" : "My Purchase Orders",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "fbf86622-3628-4727-9826-3c791e833410",
+      "title" : "My Expenses",
+      "action" : true,
+      "numberOfEvents" : 1
+    } ],
+    "vaResolvers" : [ {
+      "name" : "Directory Details",
+      "intentName" : "Directory.Details"
+    }, {
+      "name" : "Directory Lookup",
+      "intentName" : "Directory.Lookup"
+    }, {
+      "name" : "Directory Question Address",
+      "intentName" : "Directory.Question.Address"
+    }, {
+      "name" : "Directory Question Email",
+      "intentName" : "Directory.Question.Email"
+    }, {
+      "name" : "Directory Question Location",
+      "intentName" : "Directory.Question.Location"
+    }, {
+      "name" : "Directory Question Manager",
+      "intentName" : "Directory.Question.Manager"
+    }, {
+      "name" : "Directory Question Phone",
+      "intentName" : "Directory.Question.Phone"
+    }, {
+      "name" : "Directory Question Position",
+      "intentName" : "Directory.Question.Position"
+    } ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-workday.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.workday.WorkdayService_0.1.12.zip",
+    "hashChecksum" : "9d15799e898e0e0add56a8a4003b510d9fa043cd496de0bcecdcc8212c7bbab9"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
     "id" : "com.sapho.services.zendesk.ZendeskService",
     "version" : "0.1.0",
     "title" : "Zendesk",
@@ -1296,6 +1528,52 @@
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.zendesk.ZendeskService_0.1.0.zip",
     "hashChecksum" : "d6874b8851ff3d334cc0e9495c333a72a32ed1220dbb4c0de24816ace1115d98"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
+    "id" : "com.sapho.services.zendesk.ZendeskService",
+    "version" : "0.1.1",
+    "title" : "Zendesk integration",
+    "description" : "Zendesk",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Zendesk.c23ddbbea04b28e5303cb5046b14aa7c.svg",
+    "masVersion" : "1.13.3-SNAPSHOT",
+    "categories" : [ "WEB_SERVICES" ],
+    "created" : "2020-05-19T15:41:21",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+    "apps" : [ {
+      "uuid" : "1da85178-b191-49de-ac8d-5f7cc8b25c52",
+      "title" : "Add Ticket",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "cee67b47-7929-426b-929d-c3be6d86a766",
+      "title" : "Tickets",
+      "action" : true,
+      "numberOfEvents" : 4
+    } ],
+    "vaResolvers" : [ {
+      "name" : "ServiceDesk Details",
+      "intentName" : "ServiceDesk.Details"
+    }, {
+      "name" : "ServiceDesk Lookup",
+      "intentName" : "ServiceDesk.Lookup"
+    }, {
+      "name" : "ServiceDesk Lookup ChangeRequest",
+      "intentName" : "ServiceDesk.Lookup.ChangeRequest"
+    }, {
+      "name" : "ServiceDesk Lookup Incident",
+      "intentName" : "ServiceDesk.Lookup.Incident"
+    }, {
+      "name" : "ServiceDesk Lookup Problem",
+      "intentName" : "ServiceDesk.Lookup.Problem"
+    } ],
+    "tags" : [ {
+      "tag" : "helpUrl",
+      "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-zendesk.html"
+    } ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.zendesk.ZendeskService_0.1.1.zip",
+    "hashChecksum" : "19ac943eea13abbaf25a68e243727a3e37703edb2660d84971580ac50ce8b04e"
   }, {
     "type" : "HTTP",
     "vendor" : "Citrix",
