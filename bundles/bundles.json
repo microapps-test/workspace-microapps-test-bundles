@@ -671,11 +671,11 @@
     "vendor" : "Citrix",
     "id" : "com.sapho.services.jira.JiraService",
     "version" : "0.2.5",
-    "title" : "JIRA integration",
-    "description" : "Jira",
+    "title" : "JIRA",
+    "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/JIRA.35cdd2008e8e83479745e5635da3d7f1.svg",
     "masVersion" : "1.13.3-SNAPSHOT",
-    "categories" : [ "WEB_SERVICES" ],
+    "categories" : [ "LEGACY" ],
     "created" : "2020-05-19T15:41:05",
     "supportsOAuthForActions" : true,
     "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
@@ -702,7 +702,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-jira.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.jira.JiraService_0.2.5.zip",
-    "hashChecksum" : "677b084f7e091e508eebc2693558b88c9d8fc0c26b069b70796571c5ba380b7e"
+    "hashChecksum" : "ed02f0d42cca79232f4111ce6486224ccaa98196660bf261091b8679df16c182"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -923,7 +923,7 @@
     "vendor" : "Citrix",
     "id" : "com.sapho.services.salesforce.SalesforceService",
     "version" : "0.1.9",
-    "title" : "Salesforce integration",
+    "title" : "Salesforce",
     "description" : "SalesForce",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Salesforce.43b28006ce57d083904eaa95297a166d.svg",
     "masVersion" : "1.13.0-SNAPSHOT",
@@ -1075,7 +1075,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-salesforce.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.salesforce.SalesforceService_0.1.9.zip",
-    "hashChecksum" : "e92c4c8b99fd814f98c45f2e05cf4a53d329f56ada1c8561b4387569a9d820fc"
+    "hashChecksum" : "abbb941c9ef17c67f8fc526abb59dadc3243ff83cbf53936c037384ad3dcbd70"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -1171,11 +1171,11 @@
     "vendor" : "Citrix",
     "id" : "com.sapho.services.servicenow.ServiceNowService",
     "version" : "0.3.3",
-    "title" : "ServiceNow integration",
-    "description" : "ServiceNo",
+    "title" : "ServiceNow",
+    "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ServiceNow.9a68dd66918b05acfbe29ac251e33a8d.svg",
     "masVersion" : "1.12.9-SNAPSHOT",
-    "categories" : [ ],
+    "categories" : [ "LEGACY" ],
     "created" : "2020-05-19T15:29:34",
     "supportsOAuthForActions" : true,
     "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
@@ -1255,7 +1255,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-servicenow.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.servicenow.ServiceNowService_0.3.3.zip",
-    "hashChecksum" : "1439a7989b3b13e726980160905c1dbb0195b2f955d02c517afb660b5bce4b3e"
+    "hashChecksum" : "d4608da7c9836410cf5e6cb5f3347be5e8f8d687acdb7e9723dadff969381a0f"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -1533,11 +1533,11 @@
     "vendor" : "Citrix",
     "id" : "com.sapho.services.zendesk.ZendeskService",
     "version" : "0.1.1",
-    "title" : "Zendesk integration",
-    "description" : "Zendesk",
+    "title" : "Zendesk",
+    "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Zendesk.c23ddbbea04b28e5303cb5046b14aa7c.svg",
     "masVersion" : "1.13.3-SNAPSHOT",
-    "categories" : [ "WEB_SERVICES" ],
+    "categories" : [ "LEGACY" ],
     "created" : "2020-05-19T15:41:21",
     "supportsOAuthForActions" : true,
     "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
@@ -1573,7 +1573,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-zendesk.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.zendesk.ZendeskService_0.1.1.zip",
-    "hashChecksum" : "19ac943eea13abbaf25a68e243727a3e37703edb2660d84971580ac50ce8b04e"
+    "hashChecksum" : "a4b539a92364916b955b9442feab596b7afb9243a66207d6cea843bd633ae506"
   }, {
     "type" : "HTTP",
     "vendor" : "Citrix",
