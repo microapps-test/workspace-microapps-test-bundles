@@ -638,7 +638,7 @@
     "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/JIRA.35cdd2008e8e83479745e5635da3d7f1.svg",
     "masVersion" : "1.9.16-SNAPSHOT",
-    "categories" : [ "LEGACY" ],
+    "categories" : [ "WEB_SERVICES" ],
     "created" : "2020-04-06T13:30:30",
     "supportsOAuthForActions" : true,
     "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
@@ -665,7 +665,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-jira.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.jira.JiraService_0.2.4.zip",
-    "hashChecksum" : "869ba39e155739f5ccdcd80e90ae565d7d4a6008de6edfdb8d47956389f7607d"
+    "hashChecksum" : "c8c9f9291dcc2283a8b229ae60d164731f74cae59671a379faf0b4a53d660997"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -675,7 +675,7 @@
     "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/JIRA.35cdd2008e8e83479745e5635da3d7f1.svg",
     "masVersion" : "1.13.3-SNAPSHOT",
-    "categories" : [ "LEGACY" ],
+    "categories" : [ "WEB_SERVICES" ],
     "created" : "2020-05-19T15:41:05",
     "supportsOAuthForActions" : true,
     "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
@@ -702,7 +702,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-jira.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.jira.JiraService_0.2.5.zip",
-    "hashChecksum" : "ed02f0d42cca79232f4111ce6486224ccaa98196660bf261091b8679df16c182"
+    "hashChecksum" : "3cc77d8a9d87a5191b7f849014ebe08e9730f3e84c397ec548a9b6240b205949"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -1506,7 +1506,7 @@
     "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Zendesk.c23ddbbea04b28e5303cb5046b14aa7c.svg",
     "masVersion" : "1.9.17-SNAPSHOT",
-    "categories" : [ "LEGACY" ],
+    "categories" : [ "WEB_SERVICES" ],
     "created" : "2020-04-07T13:54:25",
     "supportsOAuthForActions" : true,
     "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
@@ -1527,7 +1527,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-zendesk.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.zendesk.ZendeskService_0.1.0.zip",
-    "hashChecksum" : "75b011b17f3b0df80aa8a77ef47840dfbc43b32b4808c92055b8d886ee1bd89b"
+    "hashChecksum" : "811e9465af66811b2d99988ab2b6d1e6afb7a86de71e61682cac46c6fcbee8d9"
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
@@ -1537,7 +1537,7 @@
     "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Zendesk.c23ddbbea04b28e5303cb5046b14aa7c.svg",
     "masVersion" : "1.13.3-SNAPSHOT",
-    "categories" : [ "LEGACY" ],
+    "categories" : [ "WEB_SERVICES" ],
     "created" : "2020-05-19T15:41:21",
     "supportsOAuthForActions" : true,
     "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
@@ -1573,7 +1573,7 @@
       "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-zendesk.html"
     } ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.zendesk.ZendeskService_0.1.1.zip",
-    "hashChecksum" : "a4b539a92364916b955b9442feab596b7afb9243a66207d6cea843bd633ae506"
+    "hashChecksum" : "fdceb36499d855df9889c0f7d51835262bc9bdceb849d95b6afda8818ea79d54"
   }, {
     "type" : "HTTP",
     "vendor" : "Citrix",
@@ -1679,7 +1679,7 @@
     "description" : "",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/HTTP.b662c61cecf295906ef0af18be93b25a.svg",
     "masVersion" : "1.7.3",
-    "categories" : [ ],
+    "categories" : [ "INTERNAL_DEVELOPMENT" ],
     "created" : "2020-03-03T15:58:12",
     "supportsOAuthForActions" : false,
     "i18nLanguages" : [ "en" ],
@@ -1692,7 +1692,7 @@
     "vaResolvers" : [ ],
     "tags" : [ ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_5b68dfff-fd97-4593-aaf7-ecafd9b56b23.zip",
-    "hashChecksum" : "9f3e9de3ddaafda34ba79e457aaf08174342b6aa22329e43ebd69489adda7cb6"
+    "hashChecksum" : "abb474cea0fc0ed9354dab71c07f91505993daf35642cedce0f4764a8743d242"
   }, {
     "type" : "HTTP",
     "vendor" : "Citrix",
@@ -1758,7 +1758,7 @@
     "description" : "Zendesk HTTP integration with OAuth\n\nKnown issues / potential enhancements:\n1) Localisation is done only for English\n2) Ticket tags are not supported\n3) If Update Status needs to be amended with changes of other items than additional buttons with different API calls needs to introduces (E.G.: priority cannot be part of the call if it has an empty value)\n4) Tickets with \"status\": \"deleted\" would be better to remove from synchronisation\n",
     "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Zendesk.c23ddbbea04b28e5303cb5046b14aa7c.svg",
     "masVersion" : "1.7.7",
-    "categories" : [ ],
+    "categories" : [ "INTERNAL_DEVELOPMENT" ],
     "created" : "2020-03-06T16:46:54",
     "supportsOAuthForActions" : true,
     "i18nLanguages" : [ "en" ],
@@ -1776,7 +1776,7 @@
     "vaResolvers" : [ ],
     "tags" : [ ],
     "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_aa190bbb-79e8-4281-8bc4-7d7941432e9c.zip",
-    "hashChecksum" : "37a1ce5072a43fccfd9300543b1521824a6f609dede1971f65d06c8653d20752"
+    "hashChecksum" : "7009ff75e5011a9852f60116d3d84cfa22303eda385db401b30b7bfd676f7e7b"
   }, {
     "type" : "HTTP",
     "vendor" : "AcmeCorp",
