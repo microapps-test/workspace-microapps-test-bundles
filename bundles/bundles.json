@@ -423,6 +423,39 @@
   }, {
     "type" : "DIP",
     "vendor" : "Citrix",
+    "id" : "com.sapho.services.devtest.DevTestService",
+    "version" : "0.1.1",
+    "title" : "DevTest",
+    "description" : "",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/HTTP.b662c61cecf295906ef0af18be93b25a.svg",
+    "masVersion" : "1.0.0-SNAPSHOT",
+    "categories" : [ "INTERNAL_DEVELOPMENT", "WEB_SERVICES" ],
+    "created" : "2020-05-20T15:33:24",
+    "supportsOAuthForActions" : false,
+    "i18nLanguages" : [ "en" ],
+    "apps" : [ {
+      "uuid" : "293f4dfa-4f86-4c79-bed8-95f4303ab1ec",
+      "title" : "Orders",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "5ca9bb63-2e29-4abf-bb5a-e65e06b24189",
+      "title" : "Model Update",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "d7190b1e-2c28-427c-abfe-251ba1048146",
+      "title" : "Model Update Using ID",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_com.sapho.services.devtest.DevTestService_0.1.1.zip",
+    "hashChecksum" : "785c2fd87b6cfa9f6f7e8143524b0c24db2f2d8e71401b739f5de26d6694994a"
+  }, {
+    "type" : "DIP",
+    "vendor" : "Citrix",
     "id" : "com.sapho.services.dynamics.DynamicsCrmService",
     "version" : "0.1.4",
     "title" : "MS Dynamics CRM",
