@@ -1812,6 +1812,48 @@
     "hashChecksum" : "7009ff75e5011a9852f60116d3d84cfa22303eda385db401b30b7bfd676f7e7b"
   }, {
     "type" : "HTTP",
+    "vendor" : "Citrix",
+    "id" : "c8afddd5-e247-4184-bc65-8c8a88b824c2",
+    "title" : "G Suite Directory HTTP",
+    "description" : "View and manage users and groups in your directory",
+    "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/G-Suite.8c072bd908962e58deb2abedbc8b9cd2.svg",
+    "masVersion" : "1.13.5",
+    "categories" : [ "INTERNAL_DEVELOPMENT" ],
+    "created" : "2020-05-22T08:49:29",
+    "supportsOAuthForActions" : true,
+    "i18nLanguages" : [ "en" ],
+    "apps" : [ {
+      "uuid" : "1b96a82d-7730-41ee-8491-3146f8735b24",
+      "title" : "My Details",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "56b5c846-5eb7-44e0-93c3-824cd4f27551",
+      "title" : "Directory Admin",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "8720e2b1-e1db-4403-9311-54c9d3bd8986",
+      "title" : "Groups",
+      "action" : true,
+      "numberOfEvents" : 0
+    }, {
+      "uuid" : "bf07df21-d8d4-47a6-9f23-8c3fe1f2e12a",
+      "title" : "Users",
+      "action" : true,
+      "numberOfEvents" : 1
+    }, {
+      "uuid" : "c31de16d-990b-400a-83ff-ddc5c53ef9bd",
+      "title" : "Create User",
+      "action" : true,
+      "numberOfEvents" : 0
+    } ],
+    "vaResolvers" : [ ],
+    "tags" : [ ],
+    "downloadUrl" : "https://github.com/microapps-test/workspace-microapps-test-bundles/raw/master/bundles/archives/Citrix/Citrix_c8afddd5-e247-4184-bc65-8c8a88b824c2.zip",
+    "hashChecksum" : "4986e2abd4b5fc3bcf5d3fcfb69c3413d4a0fa88e9b4edd5e23728479fb26b26"
+  }, {
+    "type" : "HTTP",
     "vendor" : "AcmeCorp",
     "id" : "ComingSoonCircleCI",
     "version" : "0.1.0-beta",
